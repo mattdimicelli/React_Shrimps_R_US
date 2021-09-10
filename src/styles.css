@@ -1,0 +1,15 @@
+@import-normalize;
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./images/wood.jpg');
+}
+
+.product-img {
+    width: 25%;
+}
+
+.nav-item {
+    display: inline;
+}
