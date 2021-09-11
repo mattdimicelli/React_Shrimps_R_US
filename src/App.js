@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import Shop from './components/Shop';
 import './styles.css';
@@ -7,7 +7,7 @@ import { useState } from 'react';
 function App() {
   const [itemCount, setItemCount] = useState("");
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path='/'>
             <Homepage itemCount={itemCount} />
@@ -16,7 +16,7 @@ function App() {
           <Shop itemCount={itemCount} setItemCount={setItemCount} />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
