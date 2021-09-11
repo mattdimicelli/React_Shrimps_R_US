@@ -5,8 +5,9 @@ import uniqid from 'uniqid';
 
 
 function ProductSelection(props) {
+    const { setItemCount } = props;
     const shrimpProductCards = shrimpsImgs.map(img => {
-        return <Product img={img} key={uniqid()} />
+        return <Product img={img} key={uniqid()} setItemCount={setItemCount} />
     });
          
 

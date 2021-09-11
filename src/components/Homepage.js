@@ -3,9 +3,10 @@ import forrestGumpPic from '../images/forrest.jpg';
 import { Link } from 'react-router-dom';
 
 function Homepage(props) {
+    const { itemCount } = props;
     return (
         <div className='homepage'>
-            <NavBar />
+            <NavBar itemCount={itemCount} />
             <div className='homepage-body'>
                 <img className='forrest-pic' src={forrestGumpPic} alt="Forrest Gump's face" />
                 <div className='about-buybtn-container'>

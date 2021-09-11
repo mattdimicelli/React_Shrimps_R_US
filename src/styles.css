@@ -1,5 +1,7 @@
 @import-normalize;
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -8,29 +10,30 @@
 }
 
 .product-img {
-  width: 10%;
+  width: 15%;
   margin: 0.5rem;
 }
 
 .nav-item {
   display: inline;
+  font-family: 'Alfa Slab One', cursive;
   font-size: 2rem;
   margin-right: 5.5rem;
 }
 
 .nav-item a {
-    text-decoration: none;
-  font-weight: bold;
+  text-decoration: none;
   color: black;
 }
 
 .nav-item a:hover,
 .shopping-cart:hover {
-    color: red;
+  color: red;
 }
 
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .home-link {
@@ -55,19 +58,19 @@ body {
 }
 
 .homepage {
-    background-image: url('./images/textured-background.jpg');
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+  background-image: url('./images/textured-background.jpg');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .shop-page {
-    background-image: url('./images/textured-background.jpg');
+  background-image: url('./images/textured-background.jpg');
 }
 
 .product-selection-wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .forrest-pic {
@@ -81,58 +84,66 @@ body {
 }
 
 .about {
-    width: 80%;
-    font-size: 1.5rem;
+  width: 80%;
+  font-size: 1.5rem;
 }
 
 .buy-shrimps-btn {
-    padding: 0.5rem;
-    border: none;
-    background:red;
-    color: white;
-    text-decoration: none;
+  padding: 0.5rem;
+  border: none;
+  background: red;
+  color: white;
+  text-decoration: none;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .buy-shrimps-btn:hover {
-    background: blue;
+  background: blue;
 }
 
 .shrimp-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
 }
 
 .product {
-    width: 25%;
-    margin: 1rem;
-    border: 1px solid black;
-    background: white;
-    border-radius: 4px;
-    padding: 0.5rem;
+  width: 25%;
+  margin: 1rem;
+  border: 1px solid black;
+  background: white;
+  border-radius: 4px;
+  padding: 0.5rem;
 }
 
 .shrimp-image {
-    width: 100%;
+  width: 100%;
 }
 
 input[type="number"] {
-    margin-bottom: 0.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
 }
+
 .add-to-cart-btn {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
+  margin-left: auto;
+  font-family: 'Alfa Slab One', cursive;
+  margin-right: auto;
+  width: 80%;
+  display: block;
 }
 
 .shrimp-type {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
 }
 
-
+.quote {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-style: italic;
+}
