@@ -17,7 +17,7 @@ function Homepage(props) {
                     from me and sold it to a Rusty Pelican or something.  That 
                     wasn't very nice.  But now thanks to Matt and The Odin
                     Project I've gone digital, as they say these days.  That's 
-                    enough about that."</p>
+                    all I have to say about that."</p>
                     <div>
                         <Link className="buy-shrimps-btn" to="/shop">BUY SHRIMPS</Link>
                     </div>
