@@ -9,13 +9,14 @@ function Homepage(props) {
             <div className='homepage-body'>
                 <img className='forrest-pic' src={forrestGumpPic} alt="Forrest Gump's face" />
                 <div className='about-buybtn-container'>
-                    <p className='about'>"Anyway, like I was sayin', shrimp is the fruit of the sea. 
-                    You can barbecue it, boil it, broil it, bake it, saute it.
-                    There's uh, shrimp-kabobs, shrimp creole, shrimp gumbo.
-                    Pan fried, deep fried, stir-fried. There's pineapple shrimp, 
-                    lemon shrimp, coconut shrimp, pepper shrimp, shrimp soup, 
-                    shrimp stew, shrimp salad, shrimp and potatoes, shrimp burger, 
-                    shrimp sandwich. That- that's about it."</p>
+                    <p className='about'>"Mama always said you are what you eat.  That's why I named
+                    my business Shrimps R Us.  Because we eat a lot of shrimp."</p>
+                    <p className='about'>"Actually, I used to have another shrimp business called 
+                    Bubba Gump Shrimp Co.  But then Paramount Pictures stole it 
+                    from me and sold it to a Rusty Pelican or something.  That 
+                    wasn't very nice.  But now thanks to Matt and The Odin
+                    Project I've gone digital, as they say these days.  That's 
+                    enough about that."</p>
                     <div>
                         <Link className="buy-shrimps-btn" to="/shop">BUY SHRIMPS</Link>
                     </div>
