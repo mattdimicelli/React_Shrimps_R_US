@@ -11,7 +11,7 @@ function ProductSelection(props) {
          
 
     return (
-        <div>
+        <div className="shrimp-wrapper">
             {shrimpProductCards}
         </div>
     )

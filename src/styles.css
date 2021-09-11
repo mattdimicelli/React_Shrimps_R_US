@@ -61,6 +61,15 @@ body {
     flex-direction: column;
 }
 
+.shop-page {
+    background-image: url('./images/textured-background.jpg');
+}
+
+.product-selection-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .forrest-pic {
   width: 38%;
 }
@@ -87,3 +96,43 @@ body {
 .buy-shrimps-btn:hover {
     background: blue;
 }
+
+.shrimp-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.product {
+    width: 25%;
+    margin: 1rem;
+    border: 1px solid black;
+    background: white;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.shrimp-image {
+    width: 100%;
+}
+
+input[type="number"] {
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: block;
+}
+.add-to-cart-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: block;
+}
+
+.shrimp-type {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+

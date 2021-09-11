@@ -3,12 +3,12 @@ function Product(props) {
 
     return (
         <div className='product'>
-            <img src={src} alt={alt} />
-            <h2>{alt}</h2>
+            <img src={src} alt={alt} className="shrimp-image" />
+            <h2 className="shrimp-type">{alt}</h2>
             <label>How many?
                 <input type="number"></input>
             </label>
-            <button>Add to Cart</button>
+            <button className="add-to-cart-btn">Add to Cart</button>
         </div>
     );
 }

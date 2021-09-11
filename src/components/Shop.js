@@ -3,9 +3,11 @@ import NavBar from './NavBar';
 
 function Shop(props) {
     return (
-        <div>
+        <div className="shop-page">
             <NavBar />
-            <ProductSelection />
+            <div className="product-selection-wrapper">
+                <ProductSelection />
+            </div>
         </div>
     );
 }
