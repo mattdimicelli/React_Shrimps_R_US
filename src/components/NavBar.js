@@ -10,9 +10,9 @@ function NavBar(props) {
         <nav className="nav-bar">
             <img className="product-img" src={shrimpLogo} alt="icon of a happy, standing shrimp with his claws outstretched" />
             <ul className='nav-bar-link-list'>
-                <li className='nav-item home-link'><Link to="/">Home</Link></li>
-                <li className='nav-item shop-link'><Link to="/shop">Shop</Link></li>
-                <li className='nav-item'><FontAwesomeIcon icon= {faShoppingCart} /><div className="count"></div></li>
+                <li className='nav-item home-link'><Link to="/">HOME</Link></li>
+                <li className='nav-item shop-link'><Link to="/shop">SHOP</Link></li>
+                <li className='nav-item shopping-cart'><FontAwesomeIcon icon= {faShoppingCart} /><div className="count"></div></li>
             </ul>
         </nav>
     );

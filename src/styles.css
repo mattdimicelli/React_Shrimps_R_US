@@ -18,6 +18,17 @@
   margin-right: 5.5rem;
 }
 
+.nav-item a {
+    text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-item a:hover,
+.shopping-cart:hover {
+    color: red;
+}
+
 body {
   margin: 0;
 }
@@ -40,6 +51,14 @@ body {
 .homepage-body {
   display: flex;
   align-items: center;
+  flex: auto;
+}
+
+.homepage {
+    background-image: url('./images/textured-background.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .forrest-pic {
@@ -49,4 +68,22 @@ body {
 .about-buybtn-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.about {
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.buy-shrimps-btn {
+    padding: 0.5rem;
+    border: none;
+    background:red;
+    color: white;
+    text-decoration: none;
+}
+
+.buy-shrimps-btn:hover {
+    background: blue;
 }
