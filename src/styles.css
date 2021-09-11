@@ -147,3 +147,7 @@ input[type="number"] {
   margin-right: 1.5rem;
   font-style: italic;
 }
+
+.count {
+  font-size: 1rem;
+}

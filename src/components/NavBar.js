@@ -13,7 +13,7 @@ function NavBar(props) {
             <ul className='nav-bar-link-list'>
                 <li className='nav-item home-link'><Link to="/">HOME</Link></li>
                 <li className='nav-item shop-link'><Link to="/shop">SHOP</Link></li>
-                <li className='nav-item shopping-cart'><FontAwesomeIcon icon= {faShoppingCart} /><div className="count">{itemCount}</div></li>
+                <li className='nav-item shopping-cart'><FontAwesomeIcon icon= {faShoppingCart} /><span className="count">{itemCount}</span></li>
             </ul>
         </nav>
     );

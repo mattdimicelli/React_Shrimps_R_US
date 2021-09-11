@@ -8,7 +8,7 @@ function Product(props) {
     function handleSubmit(e) {
         e.preventDefault();
         setItemCount(prevCount => {
-            if(!prevCount) return inputValue;
+            if(!prevCount) return Number(inputValue);
             return prevCount + Number(inputValue);
         });
     }
