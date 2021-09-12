@@ -26,7 +26,7 @@ function Product(props) {
             <label>How many?
                 <input type="number" value={inputValue} onChange={handleOnChange}></input>
             </label>
-            <button className="add-to-cart-btn">Add to Cart</button>
+            <button className="add-to-cart-btn">ADD TO CART</button>
             </form>
             
         </div>

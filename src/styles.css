@@ -134,6 +134,12 @@ input[type="number"] {
   margin-right: auto;
   width: 80%;
   display: block;
+  background: red;
+  color: white;
+}
+
+.add-to-cart-btn:hover {
+  background: blue;
 }
 
 .shrimp-type {
