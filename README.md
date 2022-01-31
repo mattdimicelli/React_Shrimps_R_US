@@ -17,8 +17,8 @@ See the complete design requirements [here](https://www.theodinproject.com/paths
 
 ### Links
 
-- [Live site](https://mattdimicelli.github.io/shopping-cart/#/)
-- [Repo](https://github.com/mattdimicelli/shopping-cart)
+- [Live site](https://mattdimicelli.github.io/React_Shrimps_R_US/)
+- [Repo](https://github.com/mattdimicelli/React_Shrimps_R_US)
 
 ## My process
 
