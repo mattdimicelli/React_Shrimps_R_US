@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is a Forrest Gump inspired shopping cart app.  It implements routes via react-router-dom to allow navigation between pages while always showing the navigation bar.  
+This is a shopping cart app for shrimp lovers!  It implements routes via react-router-dom to allow navigation between pages while always showing the navigation bar.  
 
 ### Challenge
 
