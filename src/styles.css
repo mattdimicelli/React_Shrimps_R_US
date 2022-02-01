@@ -74,7 +74,8 @@ body {
 }
 
 .forrest-pic {
-  width: 38%;
+  width: 180px;
+  margin-left: 1rem;
 }
 
 .about-buybtn-container {
